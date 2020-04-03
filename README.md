@@ -1,6 +1,6 @@
 # Project Name
 
-> One paragraph statement about the project.
+This is the first Capstone project required in Microverse course it is about building a full responsive site qith working links,based on the design work by  Sam Achola,Mathew Njuguna,Kevin Mutua three smart developers forn Nairobi, Kenya.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Html
+- SASS & CSS
+- Grid-layout and flex box
 
 ## Live Demo
 
@@ -42,12 +42,6 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)

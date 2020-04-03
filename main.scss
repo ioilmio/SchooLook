@@ -1,0 +1,45 @@
+$primary-color:#f15625;
+$accent-color:#23bbed;
+$special-color:#fbe207;
+$bg-color:#eeeeee;
+
+
+
+body {
+    background-color: $bg-color;
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+.navbar-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+.hero {
+    height: 50vh;
+    background-image: url(/images/florian-olivo-Ek9Znm8lQ1U-unsplash.jpg);
+    background-size: cover;
+    background-position: center left;
+    filter: opacity(0.8);
+
+  
+}
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
