@@ -1,47 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/687ce9f8b2.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href=".css/main.css">
-    <title>Home</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/687ce9f8b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/home.min.css" />
+    <title>Schoollook</title>
+  </head>
+  <body>
     <nav class="navbar">
-        <ul class="navbar-list">
-            <div>
-                <li class="navbar-items"><a href="home" target="_blank"></a> <img src="/images/lg.png" alt="logo"> </li>
-            </div>
-            <li class="navbar-items"><a href="about">About</a></li>
-            <li class="navbar-items"><a href="search">Search </a></li>
-            <li class="navbar-items"><a href="about"></a></li>
-            <li class="navbar-items"><a href="about"></a></li>
-        </ul>
+      <ul class="navbar-list">
+        <li class="navbar-items nav-logo">
+          <a href="index.html" target="_blank">
+          <img src="/images/lg.png" alt="logo"/>
+        </a>
+        </li>
+        <li class="navbar-items">
+          <a href="index.html">Home</a
+          ><a href="index.html"
+            ><span><i class="fas fa-home"></i></span
+          ></a>
+        </li>
+        <li class="navbar-items">
+          <a href="search.html">Search</a
+          ><a href="search.html"
+            ><span><i class="fas fa-search"></i></span
+          ></a>
+        </li>
+        <li class="navbar-items">
+          <a href="schools.html">Schools</a
+          ><a href="search.html"
+            ><span><i class="fas fa-graduation-cap"></i></span
+          ></a>
+        </li>
+        <li class="navbar-items">
+          <a href="about.html">About</a
+          ><a href="search.html"
+            ><span><i class="fas fa-user"></i></span
+          ></a>
+        </li>
+      </ul>
     </nav>
     <header class="hero">
-        <!-- <img src="/images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="Photo by Chris Ried on Unsplash" srcset=""> -->
-        <input type="search" name="search" id="search">
+      <div class="input-bar">
+        <label for="search">Search<i class="fas fa-search"></i></label>
+        <form action="search" method="post">
+          <input type="search" name="search" id="search"/>
+        </form>
+        <button type="submit">GO!</button>
+      </div>
     </header>
+    <section class="howitworks"><h1>How it works</h1></section>
     <main class="main">
-        <div class="feature1">
-            <h5></h5>
-            <p></p>
-        </div>
-        <div class="feature2">
-            <h5></h5>
-            <p></p>
-        </div>
-        <div class="feature3">
-            <h5></h5>
-            <p></p>
-        </div>
-        <div class="feature4">
-            <h5></h5>
-            <p></p>
-        </div>
+      <article class="feature1">
+        <h5><strong>1.</strong> Search for your ideal course</h5>
+        <p>
+         Input your search terms in the text box above
+        </p>
+      </article>
+      <article class="feature2">
+        <h5><strong>2.</strong> Choose your fav master</h5>
+        <p>
+          Check the free list of availbale resources
+        </p>
+      </article>
+      <article class="feature3">
+        <h5><strong>3.</strong> Start learn at your own pace</h5>
+        <ul>
+            <li>Take your time</li>
+            <li>Study</li>
+            <li>Code</li>
+            <li>Make mistakes</li>
+            <li>Repeat</li>
+        </ul>
+      </article>
+      <article class="feature4">
+        <h5><strong>4.</strong> Celebrate</h5>
+        <p>
+          When you feel ready contact your master,the youtuber or the mentor that give you the more useful, helpful and unforgettable advice and cheers with them
+        </p>
+      </article>
     </main>
-    <footer class="footer"></footer>
-</body>
+    <footer class="footer">
+      <nav class="footer navbar">
+        <ul class="footer navbar-list">
+          <li class="navbar-item">
+            <a href="twitter">Twitter</a
+            ><a href="search.html"
+              ><span><i class="fab fa-twitter"></i></span
+            ></a>
+          </li>
+          <li class="navbar-item">
+            <a href="github">Github</a
+            ><a href="search.html"
+              ><span><i class="fab fa-github"></i></span
+            ></a>
+          </li>
+          <li class="navbar-item">
+            <a href="linkedin">Linkedin</a
+            ><a href="search.html"
+              ><span><i class="fab fa-linkedin"></i></span
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
