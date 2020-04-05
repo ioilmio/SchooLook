@@ -4,10 +4,22 @@ $special-color: #ff0084;
 $text-color: rgb(99, 97, 97);
 $bg-color: #eeeeee;
 
+@mixin hidden() {
+  display: none;
+}
+
+@mixin center($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  //   border: 1px solid rgb(13, 223, 76);
+  // border: 1px solid rgb(13, 223, 76);
   color: $text-color;
 }
 
@@ -51,6 +63,9 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
+  img {
+    display: inline;
+  }
 }
 main {
   margin: 3rem auto;
@@ -58,29 +73,36 @@ main {
 footer {
   background-color: $bg-color;
   position: sticky;
+  bottom: 0;
+  h5 {
+    text-align: right;
+  }
 }
 
-@media screen and (max-width: 576px) {
-  .nav-logo {
-    display: none;
-  }
-
+@media screen and (max-width: 768px) {
   .navbar-items a:first-child {
-    display: none;
-  }
-  article {
-    padding: 0;
+    @include hidden();
   }
 }
 
-// @media screen and (min-width: 768px) {
-//   .navbar-list {
-//     font-size: 1rem;
-//   }
+@media screen and (min-width: 768px) {
+  // .nav-logo {
+  //   display:none
+  // }
+}
 
-// //   main {
-// //     display: grid;
-// //     grid-template-columns: repeat(2, 1fr);
-// //     grid-template-rows: repeat(2, 250px);
-// //   }
-// }
+@media screen and (max-width: 1024px) {
+  // .navbar-items a:first-child {
+  //   @include hidden();
+  // }
+  #nav-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #nav-logo {
+    display: inline;
+  }
+}
+

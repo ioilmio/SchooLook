@@ -19,7 +19,7 @@
       <ul class="navbar-list">
         <li class="navbar-items nav-logo">
           <a href="index.html" target="_blank">
-          <img src="/images/lg.png" alt="logo"/>
+          <img id="nav-logo" src="/images/lg.png" alt="logo"/>
         </a>
         </li>
         <li class="navbar-items">
@@ -49,39 +49,41 @@
       </ul>
     </nav>
     <header class="hero">
+      <div class="hero-logo-img">
+        <img src="./images/lg.png" alt="">
+      </div>
       <div class="input-bar">
         <label for="search">Search<i class="fas fa-search"></i></label>
         <form action="search" method="post">
-          <input type="search" name="search" id="search"/>
+          <input type="search" name="search" id="search" autofocus/>
         </form>
         <button type="submit">GO!</button>
       </div>
     </header>
     <section class="howitworks"><h1>How it works</h1></section>
     <main class="main">
-      <article class="feature1">
-        <h5><strong>1.</strong> Search for your ideal course</h5>
+      <article class="feature">
+        <h5><strong>1.</strong> Search for your ideal courses</h5>
         <p>
          Input your search terms in the text box above
         </p>
       </article>
-      <article class="feature2">
-        <h5><strong>2.</strong> Choose your fav master</h5>
+      <article class="feature">
+        <h5><strong>2.</strong> Choose your favourite master</h5>
         <p>
-          Check the free list of availbale resources
+          Check the list of free availbale resources
         </p>
       </article>
-      <article class="feature3">
+      <article class="feature">
         <h5><strong>3.</strong> Start learn at your own pace</h5>
-        <ul>
-            <li>Take your time</li>
-            <li>Study</li>
-            <li>Code</li>
-            <li>Make mistakes</li>
-            <li>Repeat</li>
-        </ul>
+            <p>Take your time</p>
+            <p>Study</p>
+            <p>Code</p>
+            <p>Make mistakes</p>
+            <p>Learn</p>
+            <p>Repeat</p>
       </article>
-      <article class="feature4">
+      <article class="feature">
         <h5><strong>4.</strong> Celebrate</h5>
         <p>
           When you feel ready contact your master,the youtuber or the mentor that give you the more useful, helpful and unforgettable advice and cheers with them
@@ -91,19 +93,19 @@
     <footer class="footer">
       <nav class="footer navbar">
         <ul class="footer navbar-list">
-          <li class="navbar-item">
+          <li class="navbar-items">
             <a href="twitter">Twitter</a
             ><a href="search.html"
               ><span><i class="fab fa-twitter"></i></span
             ></a>
           </li>
-          <li class="navbar-item">
+          <li class="navbar-items">
             <a href="github">Github</a
             ><a href="search.html"
               ><span><i class="fab fa-github"></i></span
             ></a>
           </li>
-          <li class="navbar-item">
+          <li class="navbar-items">
             <a href="linkedin">Linkedin</a
             ><a href="search.html"
               ><span><i class="fab fa-linkedin"></i></span
@@ -111,6 +113,7 @@
           </li>
         </ul>
       </nav>
+      <h5>&copy; Copyright 2020</h5>
     </footer>
   </body>
 </html>
