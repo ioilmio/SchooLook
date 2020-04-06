@@ -1,4 +1,4 @@
-# Project Name
+# Html/Css Capstone Project
 
 This is the first Capstone project required in Microverse course. It is about building a full responsive site with working links,based on the design work by Sam Achola,Mathew Njuguna,Kevin Mutua three smart developers from Nairobi, Kenya.
 
@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+https://raw.githack.com/ioilmio/Html_Css_Capstone_Project/Capstone/schools.html
 
 
 ## Getting Started
