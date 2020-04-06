@@ -43,12 +43,19 @@ body {
   padding: 1rem 0.4rem;
 }
 
+.navbar-list i:hover {
+  color: #ff0084;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
 .navbar-list a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
   color: #23bbed;
+  font-weight: 700;
 }
 
 .navbar-items {
@@ -58,13 +65,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .navbar-items img {
   display: inline;
+}
+
+.navbar-list a .active {
+  color: #ff0084;
+}
+
+.active {
+  color: red;
+}
+
+.active-icon {
+  color: red;
 }
 
 main {
@@ -72,14 +90,33 @@ main {
 }
 
 footer {
-  background-color: #eeeeee;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
 }
 
 footer h5 {
-  text-align: right;
+  font-weight: 900;
+  background-color: #eeeeee;
+  z-index: 2;
+  font-size: 1rem;
+}
+
+footer .navbar-list {
+  background-color: #eeeeee;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .navbar-list li {
+  margin: 0 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -183,6 +220,8 @@ footer h5 {
   border-bottom: 5px solid #ff0084;
   color: #eeeeee;
   margin: 2rem auto;
+  caret-color: #fb7500;
+  text-indent: 1rem;
 }
 
 .input-bar button {
@@ -195,8 +234,8 @@ footer h5 {
 
 .input-bar button:hover {
   color: #23bbed;
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
 .howitworks {
@@ -210,8 +249,8 @@ main {
   display: -ms-grid;
   display: grid;
   gap: 2rem;
-  -ms-grid-columns: (minmax(280px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
 }
 
@@ -251,12 +290,19 @@ main article {
 .feature p {
   margin-top: 1rem;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
   .feature {
     border-top: none;
+  }
+  .feature h5, .feature p {
+    font-size: 1rem;
+  }
+  .howitworks {
+    font-size: 1rem;
+    color: blue;
   }
 }
 
@@ -288,6 +334,7 @@ main article {
   }
   .input-bar input {
     margin: 0 2rem;
+    font-size: 1.8rem;
   }
   .input-bar button {
     height: 2.5rem;

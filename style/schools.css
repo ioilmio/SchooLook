@@ -43,12 +43,19 @@ body {
   padding: 1rem 0.4rem;
 }
 
+.navbar-list i:hover {
+  color: #ff0084;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
 .navbar-list a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
   color: #23bbed;
+  font-weight: 700;
 }
 
 .navbar-items {
@@ -58,13 +65,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .navbar-items img {
   display: inline;
+}
+
+.navbar-list a .active {
+  color: #ff0084;
+}
+
+.active {
+  color: red;
+}
+
+.active-icon {
+  color: red;
 }
 
 main {
@@ -72,14 +90,33 @@ main {
 }
 
 footer {
-  background-color: #eeeeee;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
 }
 
 footer h5 {
-  text-align: right;
+  font-weight: 900;
+  background-color: #eeeeee;
+  z-index: 2;
+  font-size: 1rem;
+}
+
+footer .navbar-list {
+  background-color: #eeeeee;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .navbar-list li {
+  margin: 0 2rem;
 }
 
 @media screen and (max-width: 768px) {

@@ -33,8 +33,6 @@
       font-size: 1.5rem;
       color: $bg-color;
       margin-left: 0.5rem;
-      //   position: relative;
-      //   left: 185%;
     }
   }
 
@@ -47,6 +45,8 @@
     border-bottom: 5px solid $special-color;
     color: $bg-color;
     margin: 2rem auto;
+    caret-color: $primary-color;
+    text-indent: 1rem;
   }
   button {
     border-radius: 10%;
@@ -56,7 +56,7 @@
     height: 2rem;
     &:hover {
       color: $accent-color;
-      transition: 500ms;
+      transition: 200ms;
     }
   }
 }
@@ -71,7 +71,7 @@
 main {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
   strong {
     font-size: 1.5rem;
@@ -96,7 +96,7 @@ main {
   p {
     margin-top: 1rem;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -104,6 +104,15 @@ main {
 @media screen and (max-width: 768px) {
   .feature {
     border-top: none;
+    h5,p {
+      font-size: 1rem;
+    }
+
+  }
+
+  .howitworks {
+    font-size: 1rem;
+    color: blue;
   }
 }
 
@@ -122,6 +131,7 @@ main {
     }
     input {
       margin: 0 2rem;
+      font-size: 1.8rem;
     }
     button {
       height: 2.5rem;
