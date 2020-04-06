@@ -169,6 +169,7 @@ footer .navbar-list li {
   padding: 2rem;
   background-color: rgba(255, 255, 255, 0.678);
   color: #fb7500;
+  border-radius: 5px;
 }
 
 main {
@@ -220,10 +221,10 @@ main article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

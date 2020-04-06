@@ -1,8 +1,8 @@
 # Project Name
 
-This is the first Capstone project required in Microverse course it is about building a full responsive site qith working links,based on the design work by  Sam Achola,Mathew Njuguna,Kevin Mutua three smart developers forn Nairobi, Kenya.
+This is the first Capstone project required in Microverse course. It is about building a full responsive site with working links,based on the design work by Sam Achola,Mathew Njuguna,Kevin Mutua three smart developers from Nairobi, Kenya.
 
-![screenshot](./app_screenshot.png)
+![image](https://user-images.githubusercontent.com/51195150/78612343-6505ce80-7869-11ea-9ad8-e2a799d52257.png)
 
 Additional description about the project and its features.
 
@@ -11,6 +11,7 @@ Additional description about the project and its features.
 - Html
 - SASS & CSS
 - Grid-layout and flex box
+- A sprinkle of jQuery
 
 ## Live Demo
 
@@ -19,29 +20,15 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+You can clone this repo or just click on the link below to see it live
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+A device with internet connection
 
 ## Authors
 
-👤 **Author1**
+👤 Illuminato Salvatore
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -61,7 +48,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- My Team-mate that encourage and support me
 
 ## 📝 License
 

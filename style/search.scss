@@ -13,6 +13,7 @@
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.678);
     color: $primary-color;
+    border-radius: 5px;
   }
 }
 
@@ -45,7 +46,7 @@ main {
 
 @media screen and (min-width: 768px) {
   .feature {
-    @include center(row, center, center);
+    @include center(column, center, center);
     border-top: 1px solid $special-color;
   }
 }

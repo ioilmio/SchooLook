@@ -1,7 +1,5 @@
 @import "resets";
 
-@import "resets";
-
 .hero {
   width: 100%;
   height: 70vh;
@@ -15,6 +13,7 @@
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.678);
     color: $primary-color;
+    border-radius: 5px;
   }
 }
 
