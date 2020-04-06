@@ -1,5 +1,5 @@
 $primary-color: #fb7500;
-$accent-color: #23bbed;
+$accent-color: #3388cc;
 $special-color: #ff0084;
 $text-color: rgb(99, 97, 97);
 $bg-color: #eeeeee;
@@ -49,7 +49,7 @@ body {
 
   i {
     color: $primary-color;
-    padding: 1rem 0.4rem;
+    padding: 1rem 0.5rem;
     &:hover {
       color: $special-color;
       transition: 200ms;
@@ -59,10 +59,22 @@ body {
   a {
     align-items: center;
     text-decoration: none;
-    color: $accent-color;
     font-weight: 700;
+    line-height: 1.3rem;
+    color: $accent-color;
+    font-family:sans-serif;
   }
+  a:hover {
+    color: #059;
+    transition: 200ms;
+  }
+  a.active {
+    padding: 0.1rem;
+    border-bottom: 4px solid $special-color;
+  }
+
 }
+
 
 .navbar-items {
   display: inline-flex;
@@ -73,25 +85,13 @@ body {
   }
 }
 
-.navbar-list a .active {
-  color: $special-color;
-}
-
-.active {
-  color: red;
-}
-
-.active-icon {
-  color: red;
-}
-
 main {
   margin: 3rem auto;
 }
 footer {
   position: sticky;
   bottom: 0;
-  h5{
+  h5 {
     font-weight: 900;
     background-color: $bg-color;
     z-index: 2;
@@ -114,10 +114,16 @@ footer .navbar-list {
   .navbar-items a:first-child {
     @include hidden();
   }
+
+  .navbar-list i.active-icon{
+    border-bottom: 4px solid $special-color;
+    padding: 0.5rem;
+
+  }
 }
 
 @media screen and (max-width: 1024px) {
-  #nav-logo {
+  .nav-logo {
     @include hidden();
   }
 }

@@ -11,106 +11,170 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="dist/css/home.min.css" />
+    <link rel="stylesheet" href="dist/css/schools.min.css" />
     <title>Schoollook</title>
   </head>
   <body>
     <nav class="navbar">
       <ul class="navbar-list">
         <li class="navbar-items nav-logo">
-          <a href="index.html" target="_blank">
-          <img src="/images/lg.png" alt="logo"/>
-        </a>
+          <a class="nav-logo" href="index.html" target="_self">
+            <img id="nav-logo" src="/images/lg.png" alt="logo" />
+          </a>
         </li>
         <li class="navbar-items">
-          <a href="index.html">Home</a
-          ><a href="index.html"
+          <a href="index.html" target="_self">Home</a
+          ><a href="index.html" target="_self"
             ><span><i class="fas fa-home"></i></span
           ></a>
         </li>
         <li class="navbar-items">
-          <a href="search.html">Search</a
-          ><a href="search.html"
+          <a href="search.html" target="_self">Search</a
+          ><a href="search.html" target="_self"
             ><span><i class="fas fa-search"></i></span
           ></a>
         </li>
-        <li class="navbar-items">
-          <a href="schools.html">Schools</a
-          ><a href="search.html"
-            ><span><i class="fas fa-graduation-cap"></i></span
+        <li class="navbar-items active">
+          <a class="active" href="schools.html" target="_self">Schools</a
+          ><a href="schools.html" target="_self"
+            ><span><i class="fas fa-graduation-cap active-icon"></i></span
           ></a>
         </li>
         <li class="navbar-items">
-          <a href="about.html">About</a
-          ><a href="search.html"
+          <a href="about.html" target="_self">About</a
+          ><a href="about.html" target="_self"
             ><span><i class="fas fa-user"></i></span
           ></a>
         </li>
       </ul>
     </nav>
     <header class="hero">
-      <div class="input-bar">
-        <label for="search">Search<i class="fas fa-search"></i></label>
-        <form action="search" method="post">
-          <input type="search" name="search" id="search"/>
-        </form>
-        <button type="submit">GO!</button>
-      </div>
+      <h1>Resources list</h1>
     </header>
-    <section class="howitworks"><h1>How it works</h1></section>
     <main class="main">
-      <article class="feature1">
-        <h5><strong>1.</strong> Search for your ideal course</h5>
-        <p>
-         Input your search terms in the text box above
-        </p>
+      <article class="feature">
+        <h5><strong><a href="w3schools.html">HTML5</a></strong></h5>
+        <h5><a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank" >HTML5</a></h5>
       </article>
-      <article class="feature2">
-        <h5><strong>2.</strong> Choose your fav master</h5>
-        <p>
-          Check the free list of availbale resources
-        </p>
+      <article class="feature">
+        <h5>
+          <strong><a href="tricks.html">CSS3</a></strong>
+          <h5>
+            <a href="https://css-tricks.com/" target="_blank">CSS-Tricks.com</a>
+          </h5>
+        </h5>
       </article>
-      <article class="feature3">
-        <h5><strong>3.</strong> Start learn at your own pace</h5>
-        <ul>
-            <li>Take your time</li>
-            <li>Study</li>
-            <li>Code</li>
-            <li>Make mistakes</li>
-            <li>Repeat</li>
-        </ul>
+      <article class="feature">
+        <h5>
+          <strong> <a href="bootstrap.html">Bootstrap</a></strong>
+          <h5>
+            <a href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>
+            
+          </h5>
+        </h5>
       </article>
-      <article class="feature4">
-        <h5><strong>4.</strong> Celebrate</h5>
-        <p>
-          When you feel ready contact your master,the youtuber or the mentor that give you the more useful, helpful and unforgettable advice and cheers with them
-        </p>
+      <article class="feature">
+        <h5>
+          <strong><a href="mdn.html">JavaScript</a></strong>
+          <h5>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+              >developer.mozilla.org</a
+            >
+          </h5>
+        </h5>
+      </article>
+      <article class="feature">
+        <h5>
+          <strong><a href="microverse.html">Microverse Inc.</a></strong>
+          <h5>
+            <a href="https://www.microverse.org/">microverse.org</a>
+          </h5>
+        </h5>
+      </article><article class="feature">
+        <h5>
+          <strong><a href="odin.html">The Odin Project</a> </strong>
+          <h5>
+            <a href="https://www.theodinproject.com/dashboard" target="_blank">theodinproject.com</a>
+          </h5>
+        </h5>
+      </article><article class="feature">
+        <h5>
+          <strong><a href="fcc.html">Free Code Camp</a></strong>
+          <h5>
+            <a href="https://www.freecodecamp.org/" target="_blank">freecodecamp.org</a>
+          </h5>
+        </h5>
+      </article><article class="feature">
+        <h5>
+          <strong><a href="ed.html">DevEd</a></strong>
+          <h5>
+            <a href="https://developedbyed.com/">developedbyed.com</a>
+          </h5>
+        </h5>
+      </article><article class="feature">
+        <h5>
+          <strong><a href="kyle.html">Kyle WDS</a></strong>
+          <h5>
+            <a href="https://courses.webdevsimplified.com/">courses.webdevsimplified.com</a>
+          </h5>
+        </h5>
+      </article>
+      <article class="feature">
+        <h5>
+          <strong><a href="traversy.html">Brad T.M.</a></strong>
+          <h5>
+            <a href="https://www.traversymedia.com/">traversymedia.com</a>
+          </h5>
+        </h5>
+      </article>
+      <article class="feature">
+        <h5>
+          <strong><a href="kevin.html">Kevin Powell</a></strong>
+          <h5>
+            <a href="https://www.kevinpowell.co/">kevinpowell.co</a>          </h5>
+        </h5>
+      </article>      <article class="feature">
+        <h5>
+          <strong><a href="ninja.html">The Net Ninja</a></strong>
+          <h5>
+            <a href="https://www.thenetninja.co.uk/">thenetninja.co.uk</a>          </h5>
+        </h5>
+      </article>      <article class="feature">
+        <h5>
+          <strong><a href="stackr.html">Code Stackr</a></strong>
+          <h5>
+            <a href="http://codestackr.com/">codestackr.com</a>
+          </h5>
+        </h5>
       </article>
     </main>
     <footer class="footer">
       <nav class="footer navbar">
         <ul class="footer navbar-list">
-          <li class="navbar-item">
-            <a href="twitter">Twitter</a
-            ><a href="search.html"
+          <li class="navbar-items">
+            <a href="https://twitter.com/ioilmio">Twitter</a
+            ><a href="https://twitter.com/ioilmio"
               ><span><i class="fab fa-twitter"></i></span
             ></a>
           </li>
-          <li class="navbar-item">
-            <a href="github">Github</a
-            ><a href="search.html"
+          <li class="navbar-items">
+            <a href="https://github.com/ioilmio">Github</a
+            ><a href="https://github.com/ioilmio"
               ><span><i class="fab fa-github"></i></span
             ></a>
           </li>
-          <li class="navbar-item">
-            <a href="linkedin">Linkedin</a
-            ><a href="search.html"
+          <li class="navbar-items">
+            <a href="https://www.linkedin.com/in/illuminato-salvatore/"
+              >Linkedin</a
+            ><a href="https://www.linkedin.com/in/illuminato-salvatore/"
               ><span><i class="fab fa-linkedin"></i></span
             ></a>
           </li>
         </ul>
       </nav>
+      <h5>&copy; Copyright 2020</h5>
     </footer>
   </body>
 </html>
