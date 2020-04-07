@@ -33,7 +33,7 @@ main {
       @include scale();
     }
   }
-  
+
   article {
     width: 100%;
   }
@@ -41,15 +41,15 @@ main {
 
 .feature {
   display: flex;
-  
+
   @include center(column, center, center);
-  
+
   text-align: center;
   border-bottom: 1px solid $special-color;
   margin: 2rem 1rem;
   padding-bottom: 2rem;
   height: 100%;
-  
+
   h5 {
     margin: 0.5rem;
     strong > a {
@@ -76,4 +76,3 @@ footer {
   bottom: 0;
   width: 100%;
 }
-

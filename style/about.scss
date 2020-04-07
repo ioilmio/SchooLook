@@ -7,15 +7,14 @@
 }
 
 .hero-logo-img img {
-    border-radius: 50%;
-    &:hover {
-        transform: rotateY(360deg);
-        transition: 2000ms;
-    }
+  border-radius: 50%;
+  &:hover {
+    transform: rotateY(360deg);
+    transition: 2000ms;
+  }
 }
 
 strong:hover {
-    color:$primary-color;
-    transition: 1000ms;
+  color: $primary-color;
+  transition: 1000ms;
 }
-
