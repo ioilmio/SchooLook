@@ -2,6 +2,8 @@
 
 This is the first Capstone project required in Microverse course. It is about building a full responsive site with working links,based on the design work by Sam Achola,Mathew Njuguna and Kevin Mutua three smart developers from Nairobi, Kenya, you can find this design on ![Behance](https://www.behance.net/gallery/25563385/PatashuleKE)
 
+![video](https://www.loom.com/share/8ad6e61a9a7a47809dfaa6597505205e)
+
 ![image](https://user-images.githubusercontent.com/51195150/78612343-6505ce80-7869-11ea-9ad8-e2a799d52257.png)
 
 Additional description about the project and its features.
