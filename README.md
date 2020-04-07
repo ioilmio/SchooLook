@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-https://raw.githack.com/ioilmio/Html_Css_Capstone_Project/Capstone/schools.html
+![Click me!](https://raw.githack.com/ioilmio/Html_Css_Capstone_Project/Capstone/schools.html)
 
 
 ## Getting Started

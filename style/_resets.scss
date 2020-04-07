@@ -1,8 +1,8 @@
 $primary-color: #fb7500;
-$accent-color: #3388cc;
+$accent-color: #38c;
 $special-color: #ff0084;
 $text-color: rgb(99, 97, 97);
-$bg-color: #eeeeee;
+$bg-color: #eee;
 
 @mixin hidden() {
   display: none;
@@ -42,6 +42,7 @@ body {
   list-style-type: none;
   align-items: center;
   justify-content: space-around;
+
   img {
     width: 100%;
   }
@@ -49,6 +50,7 @@ body {
   i {
     color: $primary-color;
     padding: 1rem 0.5rem;
+
     &:hover {
       color: $special-color;
       transition: 200ms;
@@ -61,24 +63,25 @@ body {
     font-weight: 700;
     line-height: 1.3rem;
     color: $accent-color;
-    font-family:sans-serif;
+    font-family: sans-serif;
   }
+
   a:hover {
     color: #059;
     transition: 200ms;
   }
+
   a.active {
     padding: 0.1rem;
     border-bottom: 4px solid $special-color;
   }
-
 }
-
 
 .navbar-items {
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
+
   img {
     display: inline;
   }
@@ -87,9 +90,11 @@ body {
 main {
   margin: 3rem auto;
 }
+
 footer {
   position: sticky;
   bottom: 0;
+
   h5 {
     font-weight: 900;
     background-color: $bg-color;
@@ -104,6 +109,7 @@ footer .navbar-list {
   bottom: 0;
   display: flex;
   justify-content: center;
+
   li {
     margin: 0 2rem;
   }
@@ -114,10 +120,9 @@ footer .navbar-list {
     @include hidden();
   }
 
-  .navbar-list i.active-icon{
+  .navbar-list i.active-icon {
     border-bottom: 4px solid $special-color;
     padding: 0.5rem;
-
   }
 }
 

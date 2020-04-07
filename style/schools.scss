@@ -7,7 +7,9 @@
   background-size: cover;
   display: flex;
   text-align: center;
+
   @include center(column, center, center);
+
   h1 {
     font-size: 3rem;
     padding: 2rem;
@@ -22,10 +24,12 @@ main {
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
+
   strong {
     font-size: 1.5rem;
     color: $special-color;
   }
+
   article {
     width: 100%;
   }
@@ -33,12 +37,15 @@ main {
 
 .feature {
   display: flex;
+
   @include center(column, center, center);
+
   text-align: center;
   border-bottom: 1px solid $special-color;
   margin: 2rem 1rem;
   padding-bottom: 2rem;
   height: 100%;
+
   h5 {
     margin: 0.5rem;
   }
@@ -47,6 +54,7 @@ main {
 @media screen and (min-width: 768px) {
   .feature {
     @include center(row, center, center);
+
     border-top: 1px solid $special-color;
   }
 }

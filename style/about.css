@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   color: #636161;
@@ -8,14 +8,14 @@
 
 body {
   max-width: 100vw;
-  background-color: #eeeeee;
+  background-color: #eee;
   font-family: "Ubuntu", sans-serif;
 }
 
 .navbar {
   border-bottom: 4px solid #ff0084;
   border-top: 4px solid #ff0084;
-  background-color: #eeeeee;
+  background-color: #eee;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -28,10 +28,10 @@ body {
   display: flex;
   list-style-type: none;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .navbar-list img {
@@ -51,12 +51,12 @@ body {
 
 .navbar-list a {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-decoration: none;
   font-weight: 700;
   line-height: 1.3rem;
-  color: #3388cc;
+  color: #38c;
   font-family: sans-serif;
 }
 
@@ -76,10 +76,10 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .navbar-items img {
@@ -98,13 +98,13 @@ footer {
 
 footer h5 {
   font-weight: 900;
-  background-color: #eeeeee;
+  background-color: #eee;
   z-index: 2;
   font-size: 1rem;
 }
 
 footer .navbar-list {
-  background-color: #eeeeee;
+  background-color: #eee;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
@@ -112,8 +112,8 @@ footer .navbar-list {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 footer .navbar-list li {
@@ -124,6 +124,7 @@ footer .navbar-list li {
   .navbar-items a:first-child {
     display: none;
   }
+
   .navbar-list i.active-icon {
     border-bottom: 4px solid #ff0084;
     padding: 0.5rem;

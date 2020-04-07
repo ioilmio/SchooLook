@@ -8,14 +8,14 @@
 
 body {
   max-width: 100vw;
-  background-color: #eeeeee;
+  background-color: #eee;
   font-family: "Ubuntu", sans-serif;
 }
 
 .navbar {
   border-bottom: 4px solid #ff0084;
   border-top: 4px solid #ff0084;
-  background-color: #eeeeee;
+  background-color: #eee;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -56,7 +56,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   line-height: 1.3rem;
-  color: #3388cc;
+  color: #38c;
   font-family: sans-serif;
 }
 
@@ -98,13 +98,13 @@ footer {
 
 footer h5 {
   font-weight: 900;
-  background-color: #eeeeee;
+  background-color: #eee;
   z-index: 2;
   font-size: 1rem;
 }
 
 footer .navbar-list {
-  background-color: #eeeeee;
+  background-color: #eee;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
@@ -212,7 +212,7 @@ footer .navbar-list li {
 
 .input-bar label i {
   font-size: 1.5rem;
-  color: #eeeeee;
+  color: #eee;
   margin-left: 0.5rem;
 }
 
@@ -223,7 +223,7 @@ footer .navbar-list li {
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   border-bottom: 5px solid #ff0084;
-  color: #eeeeee;
+  color: #eee;
   margin: 2rem auto;
   caret-color: #fb7500;
   text-indent: 1rem;
@@ -238,7 +238,7 @@ footer .navbar-list li {
 }
 
 .input-bar button:hover {
-  color: #3388cc;
+  color: #38c;
   -webkit-transition: 200ms;
   transition: 200ms;
 }
@@ -302,7 +302,8 @@ main article {
   .feature {
     border-top: none;
   }
-  .feature h5, .feature p {
+  .feature h5,
+  .feature p {
     font-size: 1rem;
   }
   .howitworks {

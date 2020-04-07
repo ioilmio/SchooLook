@@ -2,6 +2,7 @@
 
 .hero {
   @include center(column, flex-start, center);
+
   display: flex;
   height: 90vh;
   background: url(/images/chris-ried-ieic5Tq8YMk-unsplash.jpg);
@@ -10,10 +11,12 @@
 
 .hero-logo-img {
   @include center(column, flex-start, center);
+
   margin: 2rem 0;
   width: 100%;
-  background-color: rgba($color: #ffffff, $alpha: 0.5);
+  background-color: rgba($color: #fff, $alpha: 0.5);
   border: none;
+
   img {
     width: 70%;
   }
@@ -21,6 +24,7 @@
 
 .input-bar {
   @include center(column, flex-start, center);
+
   width: 80%;
   height: auto;
   margin-left: 3rem;
@@ -40,7 +44,7 @@
     height: 2.5rem;
     width: 100%;
     font-weight: 900;
-    background-color: rgba($color: #000000, $alpha: 0.5);
+    background-color: rgba($color: #000, $alpha: 0.5);
     border: none;
     border-bottom: 5px solid $special-color;
     color: $bg-color;
@@ -48,12 +52,14 @@
     caret-color: $primary-color;
     text-indent: 1rem;
   }
+
   button {
     border-radius: 10%;
     border: none;
     background-color: $primary-color;
     width: 100px;
     height: 2rem;
+
     &:hover {
       color: $accent-color;
       transition: 200ms;
@@ -73,10 +79,12 @@ main {
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
+
   strong {
     font-size: 1.5rem;
     color: $special-color;
   }
+
   article {
     width: 100%;
   }
@@ -84,7 +92,9 @@ main {
 
 .feature {
   display: flex;
+
   @include center(column, center, center);
+
   text-align: center;
   border-bottom: 1px solid $special-color;
   border-top: 1px solid $special-color;
@@ -100,14 +110,14 @@ main {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .feature {
     border-top: none;
-    h5,p {
+
+    h5,
+    p {
       font-size: 1rem;
     }
-
   }
 
   .howitworks {
@@ -119,24 +129,29 @@ main {
   .hero-logo-img {
     @include hidden();
   }
-  .input-bar{
+
+  .input-bar {
     width: 100%;
     margin: 0;
-    background-color: rgba($color: #ffffff, $alpha: 0.8);
-    @include center(row,center,center);
+    background-color: rgba($color: #fff, $alpha: 0.8);
+
+    @include center(row, center, center);
+
     padding: 2rem;
+
     i {
       @include hidden();
     }
+
     input {
       margin: 0 2rem;
       font-size: 1.8rem;
     }
+
     button {
       height: 2.5rem;
       font-size: 1.5rem;
       margin-left: 3rem;
     }
   }
-  
 }
