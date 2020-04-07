@@ -1,4 +1,5 @@
 @import "resets";
+@import "arrow";
 
 .hero {
   width: 100%;
@@ -28,8 +29,11 @@ main {
   strong {
     font-size: 1.5rem;
     color: $special-color;
+    a {
+      @include scale();
+    }
   }
-
+  
   article {
     width: 100%;
   }
@@ -37,17 +41,25 @@ main {
 
 .feature {
   display: flex;
-
+  
   @include center(column, center, center);
-
+  
   text-align: center;
   border-bottom: 1px solid $special-color;
   margin: 2rem 1rem;
   padding-bottom: 2rem;
   height: 100%;
-
+  
   h5 {
     margin: 0.5rem;
+    strong > a {
+      color: $special-color;
+      @include scale();
+    }
+  }
+  &:hover {
+    @include highlight();
+    @include scale();
   }
 }
 
@@ -65,10 +77,3 @@ footer {
   width: 100%;
 }
 
-.feature {
-  h5 {
-    strong > a {
-      color: $special-color;
-    }
-  }
-}

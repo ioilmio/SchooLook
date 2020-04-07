@@ -15,6 +15,17 @@ $bg-color: #eee;
   justify-content: $justify;
 }
 
+@mixin scale(){
+  transform: scale(120%);  
+  transition: 500ms;
+}
+
+@mixin highlight (){
+  transition: 500ms;
+  background-color: $bg-color;
+  border: solid $special-color;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -54,6 +65,8 @@ body {
     &:hover {
       color: $special-color;
       transition: 200ms;
+      @include scale();
+
     }
   }
 
@@ -69,6 +82,7 @@ body {
   a:hover {
     color: #059;
     transition: 200ms;
+    @include scale();
   }
 
   a.active {
@@ -94,6 +108,7 @@ main {
 footer {
   position: sticky;
   bottom: 0;
+  width: 100%;
 
   h5 {
     font-weight: 900;
@@ -123,6 +138,10 @@ footer .navbar-list {
   .navbar-list i.active-icon {
     border-bottom: 4px solid $special-color;
     padding: 0.5rem;
+  }
+
+  i{
+    font-size: 2rem;
   }
 }
 
