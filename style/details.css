@@ -61,7 +61,6 @@ body {
   align-items: center;
   color: #e4e4e4;
   text-shadow: 2px 2px 2px black;
-
   font-family: sans-serif;
   font-weight: 700;
   line-height: 1.3rem;
@@ -235,6 +234,5 @@ footer.navbar-list li {
 .feature strong {
   color: #ff0084;
   text-shadow: 2px 2px 2px black;
-
   font-size: 3rem;
 }

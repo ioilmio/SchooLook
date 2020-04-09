@@ -24,7 +24,6 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .navbar-list {
@@ -206,7 +205,6 @@ footer.navbar-list li {
 }
 
 .input-bar {
-
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
@@ -369,4 +367,3 @@ main article {
     width: 5rem;
   }
 }
-
