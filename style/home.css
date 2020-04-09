@@ -175,7 +175,7 @@ footer.navbar-list li {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: url(/images/chris-ried-ieic5Tq8YMk-unsplash.jpg);
+  background: url('./images/chris-ried-ieic5Tq8YMk-unsplash.jpg');
   background-size: cover;
   height: 90vh;
 }
