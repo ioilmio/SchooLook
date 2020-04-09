@@ -225,7 +225,8 @@ footer.navbar-list li {
 }
 
 .input-bar label {
-  color: #ff7300;
+  color: #e4e4e4;
+  text-shadow: 2px 2px 2px black;
   font-size: 3rem;
 }
 
