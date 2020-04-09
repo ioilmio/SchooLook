@@ -61,6 +61,8 @@ body {
   -ms-flex-align: center;
   align-items: center;
   color: #e4e4e4 !important;
+  text-shadow: 2px 2px 2px black;
+
   font-family: sans-serif;
   font-weight: 700;
   line-height: 1.3rem;
@@ -170,6 +172,8 @@ footer.navbar-list li {
   background-color: rgba(255, 255, 255, 0.678);
   border-radius: 5px;
   color: #ff7300;
+  text-shadow: 2px 2px 2px black;
+
   font-size: 3rem;
   padding: 2rem;
 }

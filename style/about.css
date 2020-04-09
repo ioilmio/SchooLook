@@ -63,6 +63,8 @@ body {
   font-weight: 700;
   line-height: 1.3rem;
   color: #e4e4e4;
+  text-shadow: 2px 2px 2px black;
+
   font-family: sans-serif;
 }
 
@@ -246,6 +248,8 @@ footer .navbar-list li {
 .feature strong {
   font-size: 5rem;
   color: #ff0084;
+  text-shadow: 2px 2px 2px black;
+
 }
 
 footer {
@@ -264,6 +268,8 @@ footer {
 
 strong:hover {
   color: #fb7500;
+  text-shadow: 2px 2px 2px black;
+
   -webkit-transition: 1000ms;
   transition: 1000ms;
 }

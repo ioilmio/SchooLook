@@ -67,6 +67,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   color: #e4e4e4;
+  text-shadow: 2px 2px 2px black;
   font-family: sans-serif;
   font-weight: 700;
   line-height: 1.3rem;
@@ -250,9 +251,14 @@ footer.navbar-list li {
 
 .howitworks {
   border-bottom: 5px solid #ff0084;
-  font-size: 1.5rem;
   padding: 2rem;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-size: 1.5rem;
+}
+
+.howitworks h1 {
+  color: #ff7300;
 }
 
 main {
