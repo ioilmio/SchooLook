@@ -4,7 +4,8 @@ This is the first Capstone project required in Microverse course. It is about bu
 
 [video](https://www.loom.com/share/8ad6e61a9a7a47809dfaa6597505205e)
 
-![image](https://user-images.githubusercontent.com/51195150/78612343-6505ce80-7869-11ea-9ad8-e2a799d52257.png)
+![image](https://user-images.githubusercontent.com/51195150/78926004-a205d700-7a9c-11ea-9081-5b5403b7dacd.png)
+
 
 Additional description about the project and its features.
 
@@ -17,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Click me!](https://raw.githack.com/ioilmio/Html_Css_Capstone_Project/Capstone/index.html)
+[Click me!](https://rawcdn.githack.com/ioilmio/Html_Css_Capstone_Project/2936a981bac4c63af78245b01ad68a90d6e64922/index.html)
 
 
 ## Getting Started
