@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-  background-color: #eee;
+  background-color: #ff7300;
   border-bottom: 4px solid #ff0084;
   border-top: 4px solid #ff0084;
   position: -webkit-sticky;
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar-list i {
-  color: #ff7300;
+  color: #0060ce;
   padding: 1rem 0.5rem;
 }
 
@@ -60,7 +60,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #0060ce;
+  color: #e4e4e4 !important;
   font-family: sans-serif;
   font-weight: 700;
   line-height: 1.3rem;
@@ -139,8 +139,9 @@ footer.navbar-list li {
 }
 
 @media screen and (min-width: 1024px) {
-  #nav-logo {
-    display: inline;
+  .navbar {
+    display: flex;
+    flex-direction: row;
   }
 }
 

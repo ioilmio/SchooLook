@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-color: #eee;
+  background-color: #ff7300;
   border-bottom: 4px solid #ff0084;
   border-top: 4px solid #ff0084;
   position: -webkit-sticky;
@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-list i {
-  color: #ff7300;
+  color: #0060ce;
   padding: 1rem 0.5rem;
 }
 
@@ -59,7 +59,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #0060ce;
+  color: #e4e4e4;
   font-family: sans-serif;
   font-weight: 700;
   line-height: 1.3rem;
@@ -142,8 +142,9 @@ footer.navbar-list li {
 }
 
 @media screen and (min-width: 1024px) {
-  #nav-logo {
-    display: inline;
+  .navbar {
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -163,7 +164,7 @@ footer.navbar-list li {
   justify-content: center;
   background: url("/images/chris-ried-ieic5Tq8YMk-unsplash.jpg");
   background-size: cover;
-  height: 100vmin;
+  height: 100%;
   width: 100%;
 }
 
@@ -209,9 +210,9 @@ footer.navbar-list li {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: rgba(238, 238, 238, 0.8);
   border-top: 1px solid #ff0084;
   height: 100%;
