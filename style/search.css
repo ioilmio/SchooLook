@@ -160,7 +160,7 @@ footer.navbar-list li {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: url("/images/florian-olivo-Ek9Znm8lQ1U-unsplash.jpg");
+  background: url("../images/florian-olivo-Ek9Znm8lQ1U-unsplash.jpg");
   background-size: cover;
   height: 70vh;
   text-align: center;
