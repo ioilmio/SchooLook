@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Click me!](https://rawcdn.githack.com/ioilmio/Html_Css_Capstone_Project/2936a981bac4c63af78245b01ad68a90d6e64922/index.html)
+[Click me!](https://ioilmio.github.io/Html_Css_Capstone_Project/)
 
 
 ## Getting Started
