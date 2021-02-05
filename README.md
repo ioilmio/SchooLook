@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Click me!](https://ioilmio.github.io/Html_Css_Capstone_Project/)
+[Click me!](http://www.ioilmio.me/SchooLook/)
 
 
 ## Getting Started
